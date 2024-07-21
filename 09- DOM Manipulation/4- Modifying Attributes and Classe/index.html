@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Task 1: Select an HTML element and change one of its attributes (e.g., src of an img tag). -->
+    <img src="https://via.placeholder.com/150" alt="placeholder" />
+    <script>
+      document.querySelector("img").src = "https://via.placeholder.com/300";
+    </script>
+
+
+
+    <!-- Task 2: Add and remove a CSS class to/ from an HTML element. -->
+     <style>
+        .red {
+            color: red;
+        }
+     </style>
+    <h1 class="changeColor" onmouseenter="changeColor()" >This is a heading</h1>
+    <script>
+      function changeColor() {
+        const heading = document.querySelector(".changeColor");
+        heading.classList.toggle("red");
+      }
+    </script>
+  </body>
+</html>

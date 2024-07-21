@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 01- Select an HTML element and change one of its attributes (e.g., src of an img tag). -->
+     <div class="first">this is my first div</div>
+     <div class="remove">This div is to be removed</div>
+     <script>
+        document.querySelector(".remove").remove();
+     </script>
+
+     <!-- 02- Remove the last child of a specific HTML element. -->
+        <ul>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+            <li>Fourth</li>
+            <li>Fifth</li>
+        </ul>
+
+        <script>
+            const nodes = document.querySelector("ul").lastElementChild.remove();
+        </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 01- Create a new div element with some text content and append it to the body. -->
+     <script>
+        const newDiv = document.createElement("div");
+        newDiv.textContent = "This is a new div element";
+        document.body.append(newDiv);
+     </script>
+
+
+
+
+    <!--  02- Create a new li element and add it to an existing u1 list. -->
+
+    <ul>
+        <li>First</li>
+        <li>Second</li>
+        <li>Fourth</li>
+        <li>Fifth</li>
+    </ul>
+    <script>
+        const newLi = document.createElement("li");
+        newLi.textContent = "Sixth"
+        document.querySelector("ul").appendChild(newLi);
+    </script>
+</body>
+</html>
