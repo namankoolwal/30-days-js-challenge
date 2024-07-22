@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Task 5: Add a keydown event listener to an input field that logs the key pressed to the console. -->
+    <input type="text" id="keypressed" />
+
+    <script>
+      const keypressed = document.getElementById("keypressed");
+      keypressed.addEventListener("keydown", (event) => {
+        console.log(event.key);
+      });
+    </script>
+
+    <!-- Task 6: Add a keyup event listener to an input field that displays the current value in a paragraph. -->
+
+    <input type="text" id="keyup" />
+    <p id="currentValue"></p>
+
+    <script>
+      const keyup = document.getElementById("keyup");
+      const currentValue = document.getElementById("currentValue");
+      keyup.addEventListener("keyup", (event) => {
+        currentValue.innerHTML = keyup.value;
+      });
+    </script>
+  </body>
+</html>

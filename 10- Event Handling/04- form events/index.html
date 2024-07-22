@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Task 7: Add a submit event listener to a form that prevents the default submission and logs the form data to the console. -->
+    <form action="" id="submitform">
+      <input type="text" name="name" id="name" placeholder="name" />
+      <input type="email" name="email" id="email" placeholder="email" />
+      <button type="submit">submit</button>
+    </form>
+
+    <script>
+      const submitform = document.getElementById("submitform");
+      submitform.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const formdata = new FormData(submitform);
+
+        const formObject = {};
+        formdata.forEach((value, key) => {
+          formObject[key] = value;
+        });
+        console.log(formObject);
+      });
+    </script>
+
+    <!-- Task 8: Add a change event listener to a select dropdown that displays the selected value in a paragraph. -->
+
+    <select name="cars" id="changeevent">
+      <option value="" name="">SELECT CAR</option>
+      <option value="volvo" name="volvo">Volvo</option>
+      <option name="maruti">maruti</option>
+      <option value="tata" name="tata">tata</option>
+      <option value="honda" name="honda">honda</option>
+    </select>
+    <p id="selectedcar"></p>
+
+    <script>
+      const changeevent = document.getElementById("changeevent");
+      const selectedcar = document.getElementById("selectedcar");
+      changeevent.addEventListener("change", () => {
+        selectedcar.innerHTML = changeevent.value;
+      });
+    </script>
+  </body>
+</html>

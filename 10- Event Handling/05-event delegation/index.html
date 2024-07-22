@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Task 9: Add a click event listener to a list that logs the text content of the clicked list item using event delegation. -->
+    <ul id="list">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <span>item6</span>
+        <li>item 5</li>
+    </ul>
+
+    <script>
+        const list = document.getElementById("list");
+        list.addEventListener("click", (event) => {
+            console.log(event.target.tagName);
+            console.log(event.target.innerHTML);
+        });
+    </script>
+
+
+
+    <!-- Task 10: Add an event listener to a parent element that listens for events from dynamically added child elements. -->
+
+    <div id="parent">
+        <ul id="addList">
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+        </ul>
+        <button id="addItem">add</button>
+    </div>
+
+    <script>
+        const parent = document.getElementById('parent');
+        const addList = document.getElementById('addList');
+        const addItem = document.getElementById('addItem')
+
+        addItem.addEventListener('click', () => {
+            const newListItem = document.createElement('li')
+            newListItem.innerHTML = 'new Item'
+            addList.appendChild(newListItem)
+        })
+
+        parent.addEventListener('click', (event) => {
+            if (event.target.tagName === 'LI') {
+
+                console.log(event.target.innerHTML)
+            }
+        })
+    </script>
+</body>
+
+</html>

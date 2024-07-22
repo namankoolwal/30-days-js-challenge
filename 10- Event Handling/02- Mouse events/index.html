@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- Task 3: Add a mouseover event listener to an element that changes its background color. -->
+
+    <div id="changebg">change backgroud color on hover</div>
+
+    <script>
+        const changebg = document.getElementById("changebg");
+        changebg.addEventListener("mouseover",()=>{
+            changebg.style.backgroundColor = "red";
+        })
+    </script>
+
+
+
+
+<!-- Task 4: Add a mouseout event listener to an element that resets its background color. -->
+
+<script>
+    changebg.addEventListener("mouseleave",()=>{
+        changebg.style.backgroundColor = "";
+    })
+</script>
+</body>
+</html>
