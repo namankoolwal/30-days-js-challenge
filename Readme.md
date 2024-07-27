@@ -2,6 +2,8 @@
 
 ## Day 1- Variables And Data Types
 
+![day1](./00-Task%20Img/day-1.png)
+
 ### Achievement:
 
 By the end of these activities, you will:
@@ -14,6 +16,8 @@ Know how to declare variables using var , let , and const .
 
 ## Day 2- Operators
 
+![day2](./00-Task%20Img/day-2.png)
+
 ### Achievement:
 
 By the end of these activities, students will:
@@ -25,6 +29,8 @@ By the end of these activities, students will:
 - Use the ternary operator for concise conditional expressions.
 
 ## Day 3- Control Structure
+
+![day3](./00-Task%20Img/day-3.png)
 
 ### Achievement:
 
@@ -39,6 +45,8 @@ By the end of these activities, students will:
 
 ## Day 4- Loops
 
+![day4](./00-Task%20Img/day-4.png)
+
 ### Achievement:
 
 By the end of these activities, students will:
@@ -52,6 +60,8 @@ By the end of these activities, students will:
 
 ## Day 5- Functions
 
+![day5](./00-Task%20Img/day-5.png)
+
 ### Achievement:
 
 By the end of these activities, students will:
@@ -63,6 +73,8 @@ By the end of these activities, students will:
 - Enhance code reusability and organization using functions.
 
 ## Day 6-Arrays
+
+![day6](./00-Task%20Img/day-6.png)
 
 ### Achievement:
 
@@ -76,6 +88,8 @@ By the end of these activities, students will:
 
 ## Day 7- Objects
 
+![day7](./00-Task%20Img/day-7.png)
+
 ### Achievement
 
 By the end of these activities, students will:
@@ -86,6 +100,8 @@ By the end of these activities, students will:
 - Iterate over an object's properties using loops and built-in methods.
 
 ## Day 8- ES6+ Features
+
+![day8](./00-Task%20Img/day-8.png)
 
 ### Achievement:
 
@@ -99,6 +115,8 @@ By the end of these activities, students will:
 
 ## Day 9- DOM Manipulation
 
+![day9](./00-Task%20Img/day-9.png)
+
 ### Achievement:
 
 By the end of these activities, students will:
@@ -111,6 +129,8 @@ By the end of these activities, students will:
 
 ## Day 10- Event Handeling
 
+![day10](./00-Task%20Img/day-10.png)
+
 ### Achievement:
 
 By the end of these activities, students will:
@@ -121,6 +141,8 @@ By the end of these activities, students will:
 - Make web pages interactive by responding to various user actions.
 
 ## Day 11- Promises And Async:Await
+
+![day11](./00-Task%20Img/day-11.png)
 
 ### Achievement:
 
@@ -134,6 +156,8 @@ By the end of these activities, students will:
 
 ## Day 12- Error Handeling
 
+![day12](./00-Task%20Img/day-12.png)
+
 ### Achievement:
 
 By the end of these activities, students will:
@@ -146,6 +170,8 @@ By the end of these activities, students will:
 
 ## Day 13- Modules
 
+![day13](./00-Task%20Img/day-13.png)
+
 ### Achievement:
 
 By the end of these activities, students will:
@@ -156,6 +182,8 @@ By the end of these activities, students will:
 - Understand the basics of module bundling (optional).
 
 ## Day 14- Classes
+
+![day14](./00-Task%20Img/day-14.png)
 
 ### Achievement:
 
@@ -168,6 +196,8 @@ By the end of these activities, students will:
 - Understand and use private fields in classes (optional).
 
 # Day 15- Closures
+
+![day15](./00-Task%20Img/day-15.png)
 
 ### Achievement:
 
