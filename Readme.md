@@ -2,7 +2,7 @@
 
 ## Day 1- Variables And Data Types
 
-![day1](./00-Task%20Img/day-1.png)
+![day1](./00-Task%20Img/day-01.png)
 
 ### Achievement:
 
@@ -16,7 +16,7 @@ Know how to declare variables using var , let , and const .
 
 ## Day 2- Operators
 
-![day2](./00-Task%20Img/day-2.png)
+![day2](./00-Task%20Img/day-02.png)
 
 ### Achievement:
 
@@ -30,7 +30,7 @@ By the end of these activities, students will:
 
 ## Day 3- Control Structure
 
-![day3](./00-Task%20Img/day-3.png)
+![day3](./00-Task%20Img/day-03.png)
 
 ### Achievement:
 
@@ -45,7 +45,7 @@ By the end of these activities, students will:
 
 ## Day 4- Loops
 
-![day4](./00-Task%20Img/day-4.png)
+![day4](./00-Task%20Img/day-04.png)
 
 ### Achievement:
 
@@ -60,7 +60,7 @@ By the end of these activities, students will:
 
 ## Day 5- Functions
 
-![day5](./00-Task%20Img/day-5.png)
+![day5](./00-Task%20Img/day-05.png)
 
 ### Achievement:
 
@@ -74,7 +74,7 @@ By the end of these activities, students will:
 
 ## Day 6-Arrays
 
-![day6](./00-Task%20Img/day-6.png)
+![day6](./00-Task%20Img/day-06.png)
 
 ### Achievement:
 
@@ -88,7 +88,7 @@ By the end of these activities, students will:
 
 ## Day 7- Objects
 
-![day7](./00-Task%20Img/day-7.png)
+![day7](./00-Task%20Img/day-07.png)
 
 ### Achievement
 
@@ -101,7 +101,7 @@ By the end of these activities, students will:
 
 ## Day 8- ES6+ Features
 
-![day8](./00-Task%20Img/day-8.png)
+![day8](./00-Task%20Img/day-08.png)
 
 ### Achievement:
 
@@ -115,7 +115,7 @@ By the end of these activities, students will:
 
 ## Day 9- DOM Manipulation
 
-![day9](./00-Task%20Img/day-9.png)
+![day9](./00-Task%20Img/day-09.png)
 
 ### Achievement:
 
