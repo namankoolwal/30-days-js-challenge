@@ -154,3 +154,27 @@ By the end of these activities, students will:
 - Import modules using named and default imports.
 - Use third-party modules installed via npm.
 - Understand the basics of module bundling (optional).
+
+## Day 14- Classes
+
+### Achievement:
+
+By the end of these activities, students will:
+
+- Define and use classes with properties and methods.
+- Implement inheritance to extend classes.
+- Utilize static methods and properties.
+- Apply getters and setters for encapsulation.
+- Understand and use private fields in classes (optional).
+
+# Day 15- Closures
+
+### Achievement:
+
+By the end of these activities, students will:
+
+- Understand and create closures in JavaScript.
+- Use closures to maintain private state and create encapsulated modules.
+- Apply closures in practical scenarios like generating unique IDs and memoization.
+- Use closures in loops to capture and use variables correctly.
+
