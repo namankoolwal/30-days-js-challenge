@@ -183,14 +183,26 @@ By the end of these activities, students will:
 ### Achievement: 
 
 By the end of these activities, students will:
+
 - Understand and implernent basic recursion.
 - Apply recursion to solve problems with arrays and strings.
 - Use recursiffl for searching and counting el«nents in arrays.
 - Perform tree traversal and calculate tree depth using recursion (optional).
 
+# Day 17- Data Structure
+
+### Achievement:
+
+By the end of these activities, students will:
+
+- Implement and use linked lists for dynamic data storage.
+- Use stacks for LIFO (Last-ln-First-Out) operations and reverse data.
+- Use queues for FIFO (First-ln-First-Out) operations and simulate real-world scenarios.
+- Implement binary trees for hierarchical data storage and traversal.
+- Understand and use graphs for network representations and pathfinding (optional).
 
 
 
-<br><br><br><br><br>
+<br><br>
 
 > ***Follow Me On [Linkdin](https://www.linkedin.com/in/naman-khandelwal-568971189/) || [Instagram](https://www.instagram.com/naman_koolwal/)***
