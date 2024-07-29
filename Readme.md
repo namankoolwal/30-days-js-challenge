@@ -167,7 +167,7 @@ By the end of these activities, students will:
 - Apply getters and setters for encapsulation.
 - Understand and use private fields in classes (optional).
 
-# Day 15- Closures
+## Day 15- Closures
 
 ### Achievement:
 
@@ -178,7 +178,7 @@ By the end of these activities, students will:
 - Apply closures in practical scenarios like generating unique IDs and memoization.
 - Use closures in loops to capture and use variables correctly.
 
-# Day 16- Recursion
+## Day 16- Recursion
 
 ### Achievement: 
 
@@ -189,7 +189,7 @@ By the end of these activities, students will:
 - Use recursiffl for searching and counting el«nents in arrays.
 - Perform tree traversal and calculate tree depth using recursion (optional).
 
-# Day 17- Data Structure
+## Day 17- Data Structure
 
 ### Achievement:
 
