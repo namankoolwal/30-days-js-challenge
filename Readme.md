@@ -202,6 +202,18 @@ By the end of these activities, students will:
 - Understand and use graphs for network representations and pathfinding (optional).
 
 
+## Day 18- Algorithms
+
+### Achievement:
+
+By the end of these activities, students will:
+
+- Implement and understand cornmon sorting algorithrns.
+- Implement and understand common searching algorithms.
+- Solve string manipulation problems using algorithms.
+- Perform array operations using algorithms.
+- Apply dynamic programming to solve complex problems (optional).
+
 
 <br><br>
 
