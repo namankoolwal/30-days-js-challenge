@@ -201,7 +201,6 @@ By the end of these activities, students will:
 - Implement binary trees for hierarchical data storage and traversal.
 - Understand and use graphs for network representations and pathfinding (optional).
 
-
 ## Day 18- Algorithms
 
 ### Achievement:
@@ -213,6 +212,22 @@ By the end of these activities, students will:
 - Solve string manipulation problems using algorithms.
 - Perform array operations using algorithms.
 - Apply dynamic programming to solve complex problems (optional).
+
+## Day 19- Regular Expression
+
+### Achievement:
+
+By the end of these activities, students will:
+
+- Understand and create basic regular expressions.
+- Use character classes and quantifiers in regular expressions.
+- Implement grouping and capturing in regular expressions.
+- Apply assertims and toundafies in regular expressions.
+- Use regular expressions for practical applications like validating passwords and URLS.
+
+
+
+
 
 
 <br><br>
