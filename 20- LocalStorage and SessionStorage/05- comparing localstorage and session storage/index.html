@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>check console</h3>
+
+    <!-- Task 9: Write a function that accepts a key and a value, and saves the value to localStorage and sessionstorage . Retrieve and log the values from both storage mechanisrns. -->
+
+    <script>
+      function saveToStorage(key, value) {
+        localStorage.setItem(key, value);
+        sessionStorage.setItem(key, value);
+        console.log("localstorage", localStorage.getItem(key));
+        console.log("sessionstorage", sessionStorage.getItem(key));
+      }
+      saveToStorage("name", "John Doe");
+    </script>
+
+    <!-- Task 10: Write a function that cleats all data from tX3th localStorage and sessionstorage . Verify that both storages are empty. -->
+
+    <script>
+      function clearStorage() {
+        localStorage.clear();
+        sessionStorage.clear();
+        console.log("localstorage", localStorage);
+        console.log("sessionstorage", sessionStorage);
+      }
+      clearStorage();
+    </script>
+  </body>
+</html>

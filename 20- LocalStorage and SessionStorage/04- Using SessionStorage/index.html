@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Task 7: Create a simple form that saves user input (e.g., name and email) to sessionstorage when Retrieve and display the saved data on page load. -->
+
+    <form onsubmit="handelSubmit(event)">
+      <input type="text" name="name" id="" /><br />
+      <input type="text" name="email" id="" /><br />
+      <button type="submit" id="submit">Submit</button>
+    </form>
+
+    <p id="demo"></p>
+
+    <script>
+      const display = document.getElementById("demo");
+      function handelSubmit(e) {
+        e.preventDefault();
+        const formdata = new FormData(e.target);
+        const obj = {};
+        formdata.forEach((value, key) => {
+          obj[key] = value;
+        });
+        sessionStorage.setItem("formData", JSON.stringify(obj));
+      }
+
+      window.onload = function () {
+        const retrievedObjString = sessionStorage.getItem("formData");
+        const retrievedObj = JSON.parse(retrievedObjString);
+        display.innerHTML = `Name: ${retrievedObj.name} <br> email: ${retrievedObj.email}`;
+      };
+    </script>
+
+    <!-- Task 8: write a script to remove an item from sessionstorage . Log the sessionstorage content before and after rernoval. -->
+
+    <script>
+      sessionStorage.setItem("remove", "this is removable content");
+      const retrievedValue = sessionStorage.getItem("remove");
+      console.log(sessionStorage);
+      sessionStorage.removeItem("remove");
+      console.log(sessionStorage);
+    </script>
+  </body>
+</html>

@@ -226,7 +226,16 @@ By the end of these activities, students will:
 - Use regular expressions for practical applications like validating passwords and URLS.
 
 
+## Day 20- LocalStorage and SessionStorage
 
+### Achievement:
+
+By the end of these activities, students Will:
+
+- Understand how to use localStorage and sessionstorage for persistent and session-specific data storage.
+- Save, retrieve, and remove data frorn both localStorage and sessionstorage .
+- Inwement form data storage using localStorage and sessionstorage .
+- Compare and contrast the use cases for localStorage and sessionstorage .
 
 
 

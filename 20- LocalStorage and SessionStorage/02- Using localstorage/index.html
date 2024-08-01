@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Task 3: Create a simple form that saves user input (e.g., name and email) to localStorage when submitted. Retrieve and display the saved data on page load. -->
+    <form onsubmit="handelSubmit(event)">
+      <input type="text" name="name" id="" /><br />
+      <input type="text" name="age" id="" /><br />
+      <button type="submit" id="submit">Submit</button>
+    </form>
+
+    <p id="demo"></p>
+
+    <script>
+      const display = document.getElementById("demo");
+      function handelSubmit(e) {
+        e.preventDefault();
+        const formdata = new FormData(e.target);
+        const obj = {};
+        formdata.forEach((value, key) => {
+          obj[key] = value;
+        });
+        localStorage.setItem("formData", JSON.stringify(obj));
+      }
+
+      window.onload = function () {
+        const retrievedObjString = localStorage.getItem("formData");
+        const retrievedObj = JSON.parse(retrievedObjString);
+        display.innerHTML = `Name: ${retrievedObj.name} <br> Age: ${retrievedObj.age}`;
+      };
+    </script>
+    <!-- Task 4: VWite a script to remove an item from localStorage . Log the localStorage content before and after rernoval. -->
+
+    <script>
+      localStorage.setItem("remove", "this is removable content");
+      const retrievedValue = localStorage.getItem("remove");
+      console.log(localStorage);
+      localStorage.removeItem("remove");
+      console.log(localStorage);
+    </script>
+  </body>
+</html>

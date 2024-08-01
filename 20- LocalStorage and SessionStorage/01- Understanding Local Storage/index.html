@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Check console</h2>
+
+    <script>
+      <!-- // Task 1: Write a script to save a string value to localStorage and retrieve it. Log the retrievad value. -->
+
+      const value = "Hello, world";
+      localStorage.setItem("key", value);
+      const retrievedValue = localStorage.getItem("key");
+      console.log(retrievedValue);
+    </script>
+
+    <!-- // Task 2: Write a script to save an object to localStorage by converting it to a JSON string. Retrieve and parse the object, then log it. -->
+
+    <script>
+      const obj = {
+        name: "Namna Khandelwal",
+        age: "22",
+        address: "India",
+      };
+
+      const objString = JSON.stringify(obj);
+      localStorage.setItem("obj", objString);
+      const retrievedObjString = localStorage.getItem("obj");
+      const retrievedObj = JSON.parse(retrievedObjString);
+      console.log(retrievedObj);
+    </script>
+  </body>
+</html>

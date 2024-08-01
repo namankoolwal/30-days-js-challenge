@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>check console or session storage</h2>
+
+    <!-- Task 5: Write a script to save a string value to sessionstorage and retrieve it. Log the retrieved value. -->
+
+    <script>
+      const value = "Hello world";
+      sessionStorage.setItem("key", value);
+      const retrievedValue = sessionStorage.getItem("key");
+      console.log(retrievedValue);
+    </script>
+
+    <!-- Task 6: VWite a script to save an object to sessionstcrage by converting it to a JSON string. Retrieve and parse the object, then log it. -->
+
+    <script>
+      const obj = {
+        name: "Namna Khandelwal",
+        age: "22",
+        address: "India",
+      };
+
+      const objString = JSON.stringify(obj);
+      sessionStorage.setItem("obj", objString);
+      const retrievedObjString = sessionStorage.getItem("obj");
+      const retrievedObj = JSON.parse(retrievedObjString);
+      console.log(retrievedObj);
+    </script>
+  </body>
+</html>
