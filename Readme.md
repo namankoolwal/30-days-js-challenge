@@ -238,6 +238,18 @@ By the end of these activities, students Will:
 - Compare and contrast the use cases for localStorage and sessionstorage .
 
 
+## Day 21- Leetcode Easy
+
+### Achievement:
+
+By the end of these activities, students Will:
+
+- Solve common LeetCode problerns.
+- Apply problem-solving skills to implement algorithms.
+- Understand and handle edge cases in algorithmic solutions.
+- Gain confidence in solving easy-level coding challenges on LeetCode.
+
+
 
 <br><br>
 
